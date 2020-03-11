@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  color: white;
+}
+body {
+  background-color: #111111;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+/*titres*/
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  margin-left: 3%;
+  font-size: 25px;
+}
+
+h2 {
+  padding-left: 5%;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-left: 3%;
+}
+
+/*menu*/
+
+#menu {
+  background-color: #111111;
+  border-bottom: 3px solid;
+  z-index: 1;
+  padding-right: 3%;
+  padding-left: 3%;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#navigation {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  list-style-type: none;
+}
+
+#navigation a {
+  display: inline-block;
+  padding: 1.3em;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: #8df4ca;
+}
+
+/* liens */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8df4ca;
+}
+
+/*home*/
+
+#reseaux {
+  font-size: 18px;
+  line-height: 35px;
+  list-style-type: none;
+  margin-right: 3%;
+  padding: 10px 10px 10px 10px;
+}
+
+.contouring {
+  margin: auto;
+  border: white;
+  border: solid;
+}
+
+#mev-box {
+  width: 450px;
+  min-height: 450px;
+}
+
+#barre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#codebarre {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 55%;
+  width: 138px;
+  min-height: 100px;
+}
+
+/*about*/
+
+#about-box {
+  width: 320px;
+  min-height: 320px;
+}
+
+#portrait {
+  margin: 0 auto;
+  margin-top: 160px;
+  background-color: white;
+  width: 65%;
+  min-height: 120px;
+}
+
+article {
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+  min-width: 374px;
+  line-height: 25px;
+  font-size: 18px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+section {
+  justify-content: center;
+  padding-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#marie {
+  position: absolute;
+  top: -150%;
+  left: 0;
+  width: 100%;
+}
+
+#mev {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  width: 100%;
+  z-index: -1;
+}
+
+#paragraphe {
+  position: relative;
+}
+
+#click {
+  position: absolute;
+  top: 99%;
+  left: 45%;
+  width: 7%;
+}
+
+#souligner {
+  position: absolute;
+  right: 11%;
+  top: 100%;
+  width: 15%;
+}
+
+/*work*/
+
+.bloc {
+  width: 360px;
+  min-height: 260px;
+  margin: 40px;
+  border: white solid;
+}
+
+.fondimage img {
+  -moz-transition: opacity 0.9s;
+  -webkit-transition: opacity 0.9s;
+  -o-transition: opacity 0.9s;
+}
+.fondimage img:hover {
+  opacity: 0.4;
+  -moz-transition: opacity 0.7s;
+  -webkit-transition: opacity 0.7s;
+  -o-transition: opacity 0.7s;
+}
+
+#couv {
+  text-align: center;
+  position: relative;
+}
+
+#traitb {
+  margin-bottom: 0;
+}
+
+/*contact*/
+
+#telecharger {
+  margin-top: 1em;
+}
+
+#positionnement {
+  position: relative;
+}
+
+#etoile {
+  position: absolute;
+  top: 92.5%;
+  right: 92%;
+}
+
+#at {
+  position: absolute;
+  top: 38%;
+  left: 11%;
+}
+
+#contact {
+  position: absolute;
+  top: -19%;
+  right: -30%;
+}
+
+#diese {
+  position: absolute;
+  top: 15%;
+  right: -11%;
+}
+
+/*footer*/
+
+#footer {
+  position: relative;
+  margin-top: 5%;
+  height: 50px;
+  width: 100%;
+}
+
+/*mentions légales*/
+
+#mentions {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.page-container {
+  position: relative;
+}
+
+/*footer*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.full-size {
+  width: 100%;
+  height: 100%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.active {
+  color: #8df4ca;
+}
+
+.spacearound {
+  justify-content: space-around;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.quarter-size {
+  width: 25%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+#responsiveMenu {
+  z-index: 1;
+  position: fixed;
+  background-color: #111111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.responsive {
+  visibility: hidden;
+}
+
+.closed {
+  width: 0;
+}
+
+.opened {
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: row;
+  }
+
+  .responsive-hidden {
+    display: none;
+  }
+
+  .responsive {
+    visibility: visible;
+  }
+}
