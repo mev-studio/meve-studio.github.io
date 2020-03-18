@@ -6,11 +6,11 @@ var toggleMenu = function() {
   var main = document.getElementById("main");
 
   if (menuOpened) {
-    //  menu.classList.replace("opened", "closed");
+    menu.classList.replace("opened", "closed");
     main.setAttribute("style", "");
     menuButton.classList.remove("is-active");
   } else {
-    // menu.classList.replace("closed", "opened");
+    menu.classList.replace("closed", "opened");
     main.setAttribute("style", "cursor: pointer");
     menuButton.classList.add("is-active");
   }
