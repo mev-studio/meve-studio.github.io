@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>MARIE VELASCO // MEV</title>
-
+    <title>CONTACT</title>
     <link href="CSS/CSS.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap"
@@ -29,7 +28,7 @@
       <ul id="navigation" class="flexbox responsive-hidden">
         <li><a href="about.html">about</a></li>
         <li><a href="work.html">work</a></li>
-        <li><a href="contact.html">contact</a></li>
+        <li><a href="contact.html" class="active">contact</a></li>
       </ul>
 
       <div class="flexbox quarter-size flex-end responsive-hidden">
@@ -65,10 +64,10 @@
 
         <div id="responsiveMenu" class="flexbox column closed">
           <br /><br />
-          <a href="index.html" class="active">home</a>
+          <a href="index.html">home</a>
           <a href="about.html">about</a>
           <a href="work.html">work</a>
-          <a href="contact.html">contact</a>
+          <a href="contact.html" class="active">contact</a>
           <br />
           <a href="https://www.instagram.com/studio_mev/?hl=fr" target="_blank">
             <img src="CSS/img/GIF/instagram.png" alt="" width="10%"
@@ -86,36 +85,42 @@
     <div id="main" onclick="closeMenu()">
       <div class="page-container">
         <section>
-          <div class="flexbox centered">
-            <div class="contouring" id="mev-box">
-              <div id="barre" class="flexbox">
-                <h2>DESIGNER_GRAPHIQUE</h2>
-                <img
-                  src="CSS/img/GIF/windows.gif"
-                  width="15%"
-                  style="padding-right: 5%"
-                />
-              </div>
-
+          <div class="flexbox centered full-size column">
+            <div id="positionnement">
+              <a href="mailto:mev.dsign@gmail.com">
+                <img src="CSS/img/CARTE.gif" />
+              </a>
               <img
-                id="hello"
-                src="CSS/img/GIF/hello.gif"
+                id="etoile"
+                src="CSS/img/GIF/etoile.gif"
                 class="flexbox"
-                width="100px"
+                width="15%"
               />
-
-              <hr id="trait" width="100%" color="white" size="3" />
-              <div id="codebarre"><img src="CSS/img/LOGO.gif" /></div>
+              <img
+                id="at"
+                src="CSS/img/GIF/at.gif"
+                class="flexbox"
+                width="15%"
+              />
+              <img
+                id="contact"
+                src="CSS/img/GIF/contact.gif"
+                class="flexbox"
+                width="40%"
+              />
+              <img
+                id="diese"
+                src="CSS/img/GIF/dieze.gif"
+                class="flexbox"
+                width="15%"
+              />
             </div>
+
+            <a id="telecharger" href="../../02_CARTE/PRINT/CARTE_VISITE.pdf"
+              >TÉLÉCHARGER</a
+            >
           </div>
         </section>
-
-        <footer id="footer">
-          <h3>
-            MEV © 2020 //
-            <a href="mentions_legales.html" target="_blank">MENTIONS LÉGALES</a>
-          </h3>
-        </footer>
       </div>
     </div>
 

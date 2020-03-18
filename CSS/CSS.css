@@ -127,6 +127,12 @@ a:hover {
   position: absolute;
 }
 
+#hello {
+  position: absolute;
+  top: 105%;
+  left: 62%;
+}
+
 /*about*/
 
 #about-box {
@@ -146,7 +152,7 @@ article {
   text-align: justify;
   padding: 10px;
   margin: 22px;
-  min-width: 374px;
+  min-width: 350px;
   line-height: 28px;
   font-size: 18px;
   flex-grow: 1;
@@ -169,8 +175,8 @@ section {
 
 #mev {
   position: absolute;
-  top: 50%;
-  left: 12%;
+  top: 20%;
+  left: 15%;
   width: 100%;
   z-index: -1;
 }
@@ -266,9 +272,7 @@ section {
 /*footer*/
 
 #footer {
-  position: relative;
-  margin-top: 5%;
-  height: 50px;
+  position: fixed;
   width: 100%;
 }
 
@@ -289,6 +293,7 @@ section {
 /*footer*/
 
 footer {
+  background-color: #111;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -354,9 +359,12 @@ footer {
   position: fixed;
   background-color: #111111;
   overflow-x: hidden;
+  line-height: 45px;
+  border-left: solid 3px;
+  text-align: center;
   transition: 0.5s;
-  right: 0;
-  top: 0;
+  right: -3px;
+  top: 79px;
   bottom: 0;
 }
 
@@ -373,7 +381,7 @@ footer {
 }
 
 .responsive {
-  visibility: hidden;
+  display: none;
 }
 
 .closed {
@@ -394,6 +402,6 @@ footer {
   }
 
   .responsive {
-    visibility: visible;
+    display: flex;
   }
 }
