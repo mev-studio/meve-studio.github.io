@@ -120,6 +120,7 @@ a:hover {
 }
 
 #codebarre {
+  text-align: center;
   position: relative;
   margin: 0 auto;
   margin-top: 45%;
@@ -131,10 +132,14 @@ a:hover {
   position: absolute;
 }
 
+#logo {
+  width: 100%;
+}
+
 #hello {
   position: absolute;
-  top: 105%;
-  left: 62%;
+  top: 21%;
+  left: 4%;
 }
 
 /*about*/
@@ -142,6 +147,10 @@ a:hover {
 #about-box {
   width: 320px;
   min-height: 320px;
+}
+
+#logoo {
+  width: 100%;
 }
 
 #portrait {
@@ -177,21 +186,13 @@ section {
   width: 100%;
 }
 
-#mev {
-  position: absolute;
-  top: 20%;
-  left: 15%;
-  width: 100%;
-  z-index: -1;
-}
-
 #paragraphe {
   position: relative;
 }
 
 #click {
   position: absolute;
-  top: 99%;
+  top: 100%;
   left: 45%;
   width: 7%;
 }
@@ -234,31 +235,26 @@ section {
 }
 
 #positionnement {
+  text-align: center;
   position: relative;
 }
 
-#etoile {
+#mev {
   position: absolute;
-  top: 92.5%;
-  right: 92%;
+  right: 80%;
+  top: -60px;
 }
 
 #at {
   position: absolute;
-  top: 38%;
-  left: 11%;
-}
-
-#contact {
-  position: absolute;
-  top: -19%;
-  right: -30%;
+  top: 35%;
+  left: 26%;
 }
 
 #diese {
   position: absolute;
-  top: 15%;
-  right: -11%;
+  top: -8%;
+  right: 8%;
 }
 
 /*footer*/
@@ -269,6 +265,12 @@ section {
 }
 
 /*mentions légales*/
+
+#etoilee {
+  position: absolute;
+  top: 15%;
+  right: 50%;
+}
 
 #mentions {
   text-align: justify;
@@ -402,6 +404,7 @@ footer {
     min-height: 320px;
   }
 
-  #codebarre {
+  #logo {
+    width: 80%;
   }
 }
