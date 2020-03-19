@@ -109,6 +109,10 @@ a:hover {
   min-height: 360px;
 }
 
+#trait {
+  margin: 0;
+}
+
 #barre {
   display: flex;
   align-items: center;
@@ -192,20 +196,18 @@ section {
   width: 7%;
 }
 
-#souligner {
-  position: absolute;
-  right: 11%;
-  top: 100%;
-  width: 15%;
-}
-
 /*work*/
 
 .bloc {
   width: 360px;
-  min-height: 260px;
+  height: 317px;
   margin: 40px;
   border: white solid;
+}
+
+.fondimage {
+  width: 328px;
+  height: 257px;
 }
 
 .fondimage img {
@@ -226,13 +228,13 @@ section {
 }
 
 #traitb {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #fleche {
   position: absolute;
   top: 10em;
-  left: 48.5%;
+  left: 45.5%;
 }
 
 /*contact*/
@@ -403,5 +405,13 @@ footer {
 
   .responsive {
     display: flex;
+  }
+
+  #mev-box {
+    width: 320px;
+    min-height: 320px;
+  }
+
+  #codebarre {
   }
 }
