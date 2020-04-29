@@ -432,6 +432,8 @@ footer {
   }
 
   #gifvideo {
+    width: 100%;
+    border: solid white;
     display: block;
   }
 
