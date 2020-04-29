@@ -85,15 +85,18 @@
           <a
             href="https://www.linkedin.com/in/marie-velasco-25a074167/"
             target="_blank"
-            ><img src="CSS/img/GIF/linkedin.png" alt="lien linkedin" width="10%"
+            ><img
+              src="CSS/img/GIF/linkedin.png"
+              alt="lien linkedin"
+              width="10%"
           /></a>
         </div>
       </div>
     </div>
 
-    <div id="main" onclick="closeMenu()">
+    <div id="main" class="full-size" onclick="closeMenu()">
       <div class="page-container">
-        <section>
+        <!-- <section>
           <div class="flexbox centered">
             <div class="contouring" id="mev-box">
               <div id="barre" class="flexbox">
@@ -101,17 +104,17 @@
                 <img
                   src="CSS/img/GIF/windows.gif"
                   width="15%"
-                  style="padding-right: 5%"
+                  style="padding-right: 5%;"
                 />
               </div>
 
               <img
-                id="hello"
-                src="CSS/img/GIF/hello.gif"
-                class="flexbox"
-                width="100px"
-                alt="gif hello"
-              />
+          id="hello"
+          src="CSS/img/GIF/hello.gif"
+          class="flexbox"
+          width="100px"
+          alt="gif hello"
+        />
 
               <hr id="trait" width="100%" color="white" size="3" />
               <div id="codebarre">
@@ -123,12 +126,28 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
+
+        <div class="flexbox centered full-size">
+          <video
+            id="video"
+            muted
+            preload="auto"
+            autoplay="autoplay"
+            loop="loop"
+          >
+            <source src="CSS/img/mevvideo.mp4" type="video/mp4" />
+            <source src="CSS/img/mevvideo.webm" type="video/webm" />
+            <source src="CSS/img/mevvideo.ogv" type="video/ogg" />
+          </video>
+        </div>
 
         <footer id="footer">
           <h3>
-            MEV © 2020 //
-            <a href="mentions_legales.html" target="_blank">MENTIONS LÉGALES</a>
+            MEV © 2020 |
+            <a href="mentions_legales.html" target="_blank"
+              >MENTIONS LÉGALES
+            </a>
           </h3>
         </footer>
       </div>

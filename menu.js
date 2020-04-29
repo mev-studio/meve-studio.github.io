@@ -1,7 +1,7 @@
 var menuButton = document.getElementById("menuButton");
 var menuOpened = false;
 
-var toggleMenu = function() {
+var toggleMenu = function () {
   var menu = document.getElementById("responsiveMenu");
   var main = document.getElementById("main");
 
@@ -18,7 +18,7 @@ var toggleMenu = function() {
   menuOpened = !menuOpened;
 };
 
-var closeMenu = function() {
+var closeMenu = function () {
   if (menuOpened) {
     toggleMenu();
   }
