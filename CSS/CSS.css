@@ -71,6 +71,7 @@ h4 {
 }
 
 #video {
+  overflow: hidden;
   margin-top: 9%;
   width: 70%;
 }
