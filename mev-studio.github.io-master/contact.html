@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>contact</title>
+    <link href="CSS/CSS.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link href="CSS/hamburgers.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="icon" type="image/x-icon" href="CSS/img/mevicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="CSS/img/mevicon.ico" />
+    <meta
+      name="description"
+      content="Besoins d'un graphiste ? N'hésitez pas à me contacter."
+    />
+  </head>
+
+  <body>
+    <div id="menu" class="flexbox spacebetween fixed" top="0">
+      <div class="flexbox quarter-size flex-start">
+        <h1>
+          <a href="index.html">
+            <span style="position: relative;">MEV</span>
+          </a>
+        </h1>
+      </div>
+
+      <ul id="navigation" class="flexbox responsive-hidden">
+        <li><a href="about.html">about</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="contact.html" class="active">contact</a></li>
+      </ul>
+
+      <div class="flexbox quarter-size flex-end responsive-hidden">
+        <div id="reseaux" class="flexbox column">
+          <li>
+            <a
+              href="https://www.instagram.com/studio_mev/?hl=fr"
+              target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/marie-velasco-25a074167/"
+              target="_blank"
+              >linkedin</a
+            >
+          </li>
+        </div>
+      </div>
+
+      <div class="flexbox responsive" style="position: relative;">
+        <button
+          id="menuButton"
+          onclick="toggleMenu()"
+          class="hamburger--elastic"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div id="responsiveMenu" class="flexbox column closed">
+          <br /><br />
+          <a href="index.html">home</a>
+          <a href="about.html">about</a>
+          <a href="work.html">work</a>
+          <a href="contact.html" class="active">contact</a>
+          <br />
+          <a href="https://www.instagram.com/studio_mev/?hl=fr" target="_blank">
+            <img src="CSS/img/GIF/instagram.png" alt="" width="10%"
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/marie-velasco-25a074167/"
+            target="_blank"
+            ><img src="CSS/img/GIF/linkedin.png" alt="" width="10%"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" onclick="closeMenu()">
+      <div class="page-container">
+        <section>
+          <div class="flexbox centered full-size column">
+            <div id="positionnement">
+              <a href="mailto:hello@marievelasco.com">
+                <img id="carte"
+                  src="CSS/img/carte.png"
+                  alt="contact marie velasco, designer graphique, adresse mail : hello@marievelasco.com, téléphone : 0610497850"
+                />
+              </a>
+
+              <!-- <img
+                id="mev"
+                src="CSS/img/GIF/mev.gif"
+                class="flexbox"
+                width="6%"
+                alt="gif mev"
+              />
+              <img
+                id="at"
+                src="CSS/img/GIF/at.gif"
+                class="flexbox"
+                width="6%"
+                alt="gif at"
+              />
+
+              <img
+                id="diese"
+                src="CSS/img/GIF/dieze.gif"
+                class="flexbox"
+                width="7%"
+                alt="gif diese"
+              /> -->
+            </div>
+
+            <a id="telecharger" href="CSS/img/cartes.pdf">TÉLÉCHARGER</a>
+            <br />
+                ___
+          </div>
+      <div id="bande">
+          <marquee scrollamount="7">
+            | MEV | MARIE VELASCO : DESIGNER GRAPHISTE | 06.10.49.78.50 | hello@marievelasco.com | MEV | 
+            SUPPORTS IMPRIMÉS / SUPPORTS NUMÉRIQUES / ILLUSTRATIONS / PHOTOGRAPHIES | www.marievelasco.com Ⓒ | MEV |</marquee
+          ></bande>
+        </div>
+        </section>
+
+        
+      </div>
+        
+    </div>
+
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>

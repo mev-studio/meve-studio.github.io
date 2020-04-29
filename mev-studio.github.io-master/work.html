@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>work</title>
+    <link href="CSS/CSS.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link href="CSS/hamburgers.css" rel="stylesheet" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="icon" type="image/x-icon" href="CSS/img/mevicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="CSS/img/mevicon.ico" />
+    <meta
+      name="description"
+      content="Découvrir mes réalisations et mon univers graphique"
+    />
+  </head>
+
+  <body>
+    <div id="menu" class="flexbox spacebetween fixed" top="0">
+      <div class="flexbox quarter-size flex-start">
+        <h1>
+          <a href="index.html">
+            <span style="position: relative;">MEV</span>
+          </a>
+        </h1>
+      </div>
+
+      <ul id="navigation" class="flexbox responsive-hidden">
+        <li><a href="about.html">about</a></li>
+        <li><a href="work.html" class="active">work</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+
+      <div class="flexbox quarter-size flex-end responsive-hidden">
+        <div id="reseaux" class="flexbox column">
+          <li>
+            <a
+              href="https://www.instagram.com/studio_mev/?hl=fr"
+              target="_blank"
+              >instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/marie-velasco-25a074167/"
+              target="_blank"
+              >linkedin</a
+            >
+          </li>
+        </div>
+      </div>
+
+      <div class="flexbox responsive" style="position: relative;">
+        <button
+          id="menuButton"
+          onclick="toggleMenu()"
+          class="hamburger--elastic"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div id="responsiveMenu" class="flexbox column closed">
+          
+          <br /><br />
+          <a href="index.html">home</a>
+          <a href="about.html">about</a>
+          <a href="work.html" class="active">work</a>
+          <a href="contact.html">contact</a>
+          <br />
+          <a href="https://www.instagram.com/studio_mev/?hl=fr" target="_blank">
+            <img src="CSS/img/GIF/instagram.png" alt="" width="10%"
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/marie-velasco-25a074167/"
+            target="_blank"
+            ><img src="CSS/img/GIF/linkedin.png" alt="" width="10%"
+          /></a>
+        
+        </div>
+      </div>
+    </div>
+    <div id="main" onclick="closeMenu()">
+      <div class="page-container">
+        
+        <section style="align-items: flex-start;">
+          <a href="https://www.behance.net/marievelasco" target="_blank"> PORTFOLIO</a>
+          <!-- <img src="CSS/img/GIF/fleche.gif" class="rotation90" width="40px" /> -->
+        </section>
+        <section style="padding-top: 0;">
+          <div class="bloc">
+            <h2>WWWESH STUDIO | Sneakers</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/95931389/WWWESH-STUDIO-Sneakers"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/niketn.jpg"
+                alt="Challenge sur instagram, redesign du célèbre modèle Nike TN. En raison du covid19 et de son confinement, je me suis inspirée du monde apocalyptique"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>INSTAGRAM | Illustrations</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/95930203/INSTAGRAM-Illustrations"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/illustration.png"
+                alt="Illustrations de portrait, architecture posté sur instagram"
+              />
+            </a>
+          </div>
+
+          <section style="padding-top: 0;">
+            <div class="bloc">
+              <h2>WWWESH STUDIO | Book </h2>
+              <hr class="traitb" width="100%" color="white" size="3" />
+              <a
+                class="cover"
+                href="https://www.behance.net/gallery/94950731/WWWESH-STUDIO-Book"
+                target="_blank"
+              >
+                <img
+                  src="CSS/img/couv/confinement.jpg"
+                  alt="Challenge sur instagram, redesign du célèbre modèle Nike TN. En raison du covid19 et de son confinement, je me suis inspirée du monde apocalyptique"
+                />
+              </a>
+            </div>
+
+          <div class="bloc">
+            <h2>MEV | Visual identity</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/92025101/MEV-Visual-identity"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/mev.jpg"
+                alt="identité visuelle de marie velasco / mev, Designer Graphique "
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>G PHOTOGRAPHY | Logo </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/95824975/G-PHOTOGRAPHY-Logo"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/gwendoline.jpg"
+                alt="Création d'un nouveau logo basé sur les initiales de la photographe."
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>FLINT | Webdesign</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90781813/FLINT-Webdesign"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/flint.png"
+                alt="Webdesign de flint : création d'un nouveau logo, illustrations et redesign de site"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>ESMA | Card</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/92531625/ESMA-Card"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/jpo.png"
+                alt="Journées Portes Ouvertes de l'école ESMA Montpellier, carte de communication pour promouvoir l'évènement"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>MP | Visual identity</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90799411/MP-Visual-identity"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/mp.jpg"
+                alt="Élaboration d'une brochure pour présenter Marine Ponsonnaille, diététicienne nutritionniste"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>ADR | Diapositive </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/91718921/ADR-Diapositive"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/adr diaporama.png"
+                alt="Création d'un support digital (diaporama) pour présenter les valeurs de l'agence ADR et ses réalisations"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>ADR | Directory book</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90740937/ADR-Directory-book"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/adr directory.jpg"
+                alt="Réalisation d'un directory (livre) présentant l'agence ADR et son fonctionnement"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>L&F | Wedding card</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/91787255/L-F-Wedding-card"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/letf.png"
+                alt="Création des cartes d'invitation de mariage"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>SHOW | Packaging </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/91035845/SHOW-Packaging"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/show.png"
+                alt="Élaboration d'un packaging tabelette de chocolat pour la marque Show"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>PHOTOGRAPHY | Life</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90882985/PHOTOGRAPHY-Life"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/photography.jpg"
+                alt="Photographie personnelle alliant atmosphere, matière et instant de vie"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>ZAS | Album cover</h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90276931/ZAS-Album-cover"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/zas.png"
+                alt="Réalisation d'une pochette CD pour l'artiste ZAS, rappeur"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>ZÉNITH SUD | Card </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90797917/ZENITH-SUD-Card"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/zenith.png"
+                alt="Création de carte de communication pour le Zénith Sud Montpellier pour l'année 2018"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>LES CULOTTÉES | Website </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90831985/LES-CULOTTEES-Website"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/lesculottees.jpg"
+                alt="Création d'identité
+              visuelle (site et cartes de visite) pour l'association les
+              Culottées défendant le féminisme inclusif"
+              />
+            </a>
+          </div>
+
+          <div class="bloc">
+            <h2>LES ESTIVALES | Poster </h2>
+            <hr class="traitb" width="100%" color="white" size="3" />
+            <a
+              class="cover"
+              href="https://www.behance.net/gallery/90778647/LES-ESTIVALES-Poster"
+              target="_blank"
+            >
+              <img
+                src="CSS/img/couv/les estivales.jpg"
+                alt="Élaboration d'une affiche pour les estivales de Montpellier"
+              />
+            </a>
+          </div>
+
+          
+        </section>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>
