@@ -194,10 +194,18 @@ input, select, textarea {
 		font-size: 1.75em;
 	}
 
-	h3 {
-		font-size: 1.35em;
+	h3 {text-align: left;
+		font-size: 1.30em;
 	}
 
+	h4 {text-align: left;
+		font-size: 0.70em;
+	}
+
+	h5 {text-align: left;
+		font-size: 0.5em;
+		color: gray;
+	}
 
 	@media screen and (max-width: 736px) {
 
@@ -258,7 +266,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(212, 212, 255, 0.1);
+		
 		margin: 2em 0;
 	}
 
@@ -3102,8 +3110,7 @@ input, select, textarea {
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px #000000;
-			color:  #000000;
+			
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1em;
@@ -3338,7 +3345,3 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
-
-	
-
-/* gif contact */
